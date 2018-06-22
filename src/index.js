@@ -6,5 +6,5 @@ import {skills, eduList, jobsList} from './data/datasource.js'
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App skillList={skills} eduList={eduList} jobList={jobsList} />, document.getElementById('root'));
 registerServiceWorker();
